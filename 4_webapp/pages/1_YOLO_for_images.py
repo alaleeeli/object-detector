@@ -11,8 +11,8 @@ st.title('Welcome to YOLO for Image')
 st.write('Please Upload Image to get detections')
 
 with st.spinner('Please wait while your model is loading'):
-    yolo = YOLO_Pred(onnx_model='./best.onnx',
-                    data_yaml='./data.yaml')
+    yolo = YOLO_Pred(onnx_model='4_webapp/best.onnx',
+                    data_yaml='4_webapp/data.yaml')
 
 def upload_image():
     image_file = st.file_uploader(label='Upload Image')
