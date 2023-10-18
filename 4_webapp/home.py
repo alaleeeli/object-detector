@@ -11,7 +11,7 @@ st.markdown("""
 - Automatically detects 20 objects from image
 - [Click here for App](/YOLO_for_images/)  
 
-Below give are the object the our model will detect
+Below are the objects the model can detect
 1. Person
 2. Car
 3. Chair
